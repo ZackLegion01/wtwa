@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bg2.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    color: #ffffff !important;
+}
+
+
+.container {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparan */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+/* Table styles */
+.table th, .table td {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Heading styles */
+h1 {
+    color: #ffc107;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #ffc107;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #e0a800;
+}
+
+/* Custom font face */
+@font-face {
+    font-family: 'comic';
+    src: url('comic.ttf') format('truetype'); /* Perbaiki format */
+}
+
+/* Custom title style */
+.comic-title {
+    font-family: 'comic', cursive;
+    color: #e0a800; 
+  }
